@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Deployment Tutorial 1</title>
+
+
+</head>
+
+
+    <body style="
+        width: 100%;
+        height:100%;
+        font-family: 'Helvetica';
+        background: #000;
+        color: #fff;
+        font-size: 24px;
+        text-align:center;
+        letter-spacing:1.4px;">
+  
+  
+  
+ <div class="login">
+	<h2>Academic Success Forecasting</h2>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+        <input type="text" name="Application_Mode" placeholder="Application_Mode" required="required" />
+        <input type="text" name="Previous_Qualification" placeholder="Previous_Qualification" required="required" />
+        <input type="text" name="Debtor" placeholder="Debtor" required="required" />
+        <input type="text" name="Tuition_Fees" placeholder="Tuition_Fees" required="required" />
+        <input type="text" name="Gender" placeholder="Gender" required="required" />
+		<input type="text" name="Scholarship" placeholder="Scholarship" required="required" />
+        <input type="text" name="Enrollment_Age" placeholder="Enrollment_Age" required="required" />
+        <input type="text" name="CU_1st_Approved" placeholder="CU_1st_Approved" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict academic success</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
