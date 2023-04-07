@@ -1,5 +1,9 @@
 ## Academic Success Rate Project
 
+* Developed a predictive tool that can forecast whether students will complete their course or drop out after one semester. The results of this analysis can offer valuable insights into the reasons why students struggle to finish their education. By using this tool, institutions can devise effective strategies to prevent failure and dropout.
+* Selected and optimized a machine learning model using GridsearchCV to achieve the optimal performance.
+* Built a client facing API using flask
+
 ### Code and Resources Used:
 Python Version: 3.9.13 <br/>
 Packages: pandas, numpy, matplotlib, seaborn, plotly, sklearn, xgboost, imblearn, flask, pickle, tqdm
@@ -9,6 +13,7 @@ The dataset for this project contains information about students from various da
 
 ### Exploratory Data Analysis:
 This project aims to conduct an exploratory data analysis using family background and past academic records to gain insights into why students struggle to complete their education. Factors such as younger enrollment age, scholarships, and choice of courses are found to have a significant impact on academic success rates. Multicollinearity is observed for some groups, including Curricular units 1st/2nd semestr groups, Nationality, and International, which need to be considered while building a machine learning model.
+![alt text](https://github.com/vvalmispild/Academic_Success_Rate_project/blob/main/Correlation_Matrix.png)
 
 ### Machine Learning Prediction:
 In this project, we also aim to create a machine learning algorithm that can anticipate a student's academic progress after the first semester, with a particular emphasis on forecasting whether they will successfully complete the course or withdraw. 
