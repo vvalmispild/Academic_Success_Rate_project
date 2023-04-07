@@ -1,7 +1,7 @@
 ## Academic Success Rate Project
 
 * Developed a predictive tool that can forecast whether students will complete their course or drop out after first semester. The results of this analysis can offer valuable insights into the reasons why students struggle to finish their education. By using this tool, institutions can devise effective strategies to prevent failure and dropout.
-* Selected and optimized a machine learning model using GridsearchCV to achieve the optimal performance.
+* Selected and optimized a machine learning model using GridSearchCV to achieve the optimal performance.
 * Built a client facing API using flask
 
 ### Code and Resources Used:
