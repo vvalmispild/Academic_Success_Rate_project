@@ -5,11 +5,10 @@ Python Version: 3.9.13 <br/>
 Packages: pandas, numpy, matplotlib, seaborn, plotly, sklearn, xgboost, imblearn, flask, pickle, tqdm
 
 ### Data Description:
-The dataset for this project contains information about undergraduate students from various databases in a higher education institution. It includes demographics, socioeconomic and macroeconomic status, enrollment and progress data for the first and second semesters. The data was sourced from Zenodo, and a detailed description of the columns can be found here.
+The dataset for this project contains information about students from various databases in a higher education institution. It includes demographics, socioeconomic and macroeconomic status, enrollment and progress data for the first and second semesters. The data was sourced from Zenodo, and a detailed description of the columns can be found here.
 
 ### Exploratory Data Analysis:
 This project aims to conduct an exploratory data analysis using family background and past academic records to gain insights into why students struggle to complete their education. Factors such as younger enrollment age, scholarships, and choice of courses are found to have a significant impact on academic success rates. Multicollinearity is observed for some groups, including Curricular units 1st/2nd semestr groups, Nationality, and International, which need to be considered while building a machine learning model.
-![alt text](https://github.com/vvalmispild/Academic_Success_Rate_project/blob/main/Scholarship.pdf)
 
 ### Machine Learning Prediction:
 In this project, we also aim to create a machine learning algorithm that can anticipate a student's academic progress after the first semester, with a particular emphasis on forecasting whether they will successfully complete the course or withdraw. 
