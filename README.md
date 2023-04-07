@@ -9,7 +9,7 @@ The dataset for this project contains information about undergraduate students f
 
 ### Exploratory Data Analysis:
 This project aims to conduct an exploratory data analysis using family background and past academic records to gain insights into why students struggle to complete their education. Factors such as younger enrollment age, scholarships, and choice of courses are found to have a significant impact on academic success rates. Multicollinearity is observed for some groups, including Curricular units 1st/2nd semestr groups, Nationality, and International, which need to be considered while building a machine learning model.
-![alt text](https://github.com/vvalmispild/Academic_Success_Rate_project/Scholarship.png)
+![alt text](https://github.com/vvalmispild/Academic_Success_Rate_project/Scholarship.png?raw=true)
 
 ### Machine Learning Prediction:
 In this project, we also aim to create a machine learning algorithm that can anticipate a student's academic progress after the first semester, with a particular emphasis on forecasting whether they will successfully complete the course or withdraw. 
@@ -24,7 +24,8 @@ recall	|  0.923704	| 0.910246 |	0.868328	| 0.907213	 | 0.939163 | 0.904835 |
 f1_micro |	0.860606	| 0.848485	 | 0.841047	| 0.831680	 | 0.841598 | 0.851240 |
 f1_macro |	0.849770	| 0.838368 |	0.832926	| 0.817776	 | 0.825529 | 0.841179 |
 
-Logistic regression selected as optimal model and tuned.
+Logistic regression is chosen as the optimal model. <br/>
+Next, the model was tuned with optimal hyperparameters.
 
 ### Productionization:
 To productionize the project, I created a Flask API endpoint that runs on a local web server by following the tutorial provided in the reference section. The endpoint receives input variables from a web application request and generates a forecasting estimate, which is then returned as output. To launch the web application, the command "$ python app.py" is executed, and the resulting GUI can be accessed by opening http://127.0.0.1:5000/ in a web browser. The GUI should resemble the one shown below.
