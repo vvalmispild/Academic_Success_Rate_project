@@ -21,6 +21,13 @@ precision	0.858474	 0.854389	  0.873773	 0.831427	  0.824737	 0.858500 <br/>
 recall	  0.923704	 0.910246 	0.868328	 0.907213	  0.939163	 0.904835 <br/>
 f1_micro	0.860606	 0.848485	  0.841047	 0.831680	  0.841598	 0.851240 <br/>
 f1_macro	0.849770	 0.838368 	0.832926	 0.817776	  0.825529	 0.841179 <br/>
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
 Logistic regression selected as optimal model and tuned.
 
 ### Productionization:
