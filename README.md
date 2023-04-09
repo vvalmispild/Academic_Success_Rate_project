@@ -2,7 +2,7 @@
 
 * Developed a predictive tool that can forecast whether students will complete their course or drop out after first semester. The results of this analysis can offer valuable insights into the reasons why students struggle to finish their education. By using this tool, institutions can devise effective strategies to prevent failure and dropout.
 * Selected and optimized a machine learning model using GridSearchCV to achieve the optimal performance.
-* Built a client facing API using flask
+* Built a client facing API using flask.
 
 ### Code and Resources Used:
 Python Version: 3.9.13 <br/>
@@ -35,8 +35,10 @@ Next, the model was tuned with optimal hyperparameters.
 To productionize the project, I created a Flask API endpoint that runs on a local web server by following the tutorial provided in the reference section. The endpoint receives input variables from a web application request and generates a forecasting estimate, which is then returned as output. To launch the web application, the command "$ python app.py" is executed, and the resulting GUI can be accessed by opening http://127.0.0.1:5000/ in a web browser. The GUI should resemble the one shown below.
 
 ### References:
+<sup>
 1) https://zenodo.org/record/5777340#.ZAJvJy8w1QK <br/>
 2) https://www.kaggle.com/code/nawazkhanpathan/end-to-end-student-s-academic-success-rate-predict <br/>
 3) https://www.pordata.pt/en/portugal/mean+age+on+first+marriage+by+sex-421-5200 <br/>
 4) https://www.youtube.com/watch?v=xi0vhXFPegw&list=LL&index=25&t=2141s <br/>
 5) https://medium.com/towards-data-science/how-to-easily-deploy-machine-learning-models-using-flask-b95af8fe34d4 
+</sup>
