@@ -39,6 +39,5 @@ To productionize the project, I created a Flask API endpoint that runs on a loca
 1) https://zenodo.org/record/5777340#.ZAJvJy8w1QK <br/>
 2) https://www.kaggle.com/code/nawazkhanpathan/end-to-end-student-s-academic-success-rate-predict <br/>
 3) https://www.pordata.pt/en/portugal/mean+age+on+first+marriage+by+sex-421-5200 <br/>
-4) https://www.youtube.com/watch?v=xi0vhXFPegw&list=LL&index=25&t=2141s <br/>
 5) https://medium.com/towards-data-science/how-to-easily-deploy-machine-learning-models-using-flask-b95af8fe34d4 
 </sup>
