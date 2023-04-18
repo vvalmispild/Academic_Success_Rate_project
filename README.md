@@ -14,7 +14,6 @@ The dataset for this project contains information about students from various da
 ### Exploratory Data Analysis:
 This project aims to conduct an exploratory data analysis using family background and past academic records to gain insights into why students struggle to complete their education. Factors such as younger enrollment age, scholarships, and choice of courses are found to have a significant impact on academic success rates. 
 ![alt text](https://github.com/vvalmispild/Academic_Success_Rate_project/blob/main/marital_status_average_age.png)
-![alt text](https://github.com/vvalmispild/Academic_Success_Rate_project/blob/main/Previous_qualification.png)
 
 ### Machine Learning Prediction:
 In this project, we also aim to create a machine learning algorithm that can anticipate a student's academic progress after the first semester, with a particular emphasis on forecasting whether they will successfully complete the course or withdraw. 
