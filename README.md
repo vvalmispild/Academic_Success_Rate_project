@@ -20,6 +20,7 @@ In this project, we also aim to create a machine learning algorithm that can ant
 
 #### Model Building and performance:
 I tried different models: <br/>
+<sup>
 Metrics | Logistc Regression |	Random Forest | Balanced Random Forest | KNN | SVM | XGBOOST |
 |----------|:---------:|------:|----------|:---------:|------:|------:|
 accuracy |	0.860606	| 0.846281	|  0.841873	| 0.831680	 | 0.841598 | 0.851240 |
@@ -27,7 +28,7 @@ precision |	0.858474	| 0.854389	 | 0.873773	| 0.831427	 | 0.824737 | 0.858500 |
 recall	|  0.923704	| 0.910246 |	0.868328	| 0.907213	 | 0.939163 | 0.904835 |
 f1_micro |	0.860606	| 0.848485	 | 0.841047	| 0.831680	 | 0.841598 | 0.851240 |
 f1_macro |	0.849770	| 0.838368 |	0.832926	| 0.817776	 | 0.825529 | 0.841179 |
-
+</sup>
 Logistic regression is chosen as the optimal model. <br/>
 Next, the model was tuned with optimal hyperparameters.
 
